@@ -41,14 +41,5 @@ python3 qrz_lookup.py <zipcode>
 
 The script was run for all 36 zip codes in Plymouth County, Massachusetts. Output files were stored in the `Plymouth/` subdirectory.
 
-### Plymouth County zip codes processed:
-02043, 02045, 02047, 02050, 02061, 02066, 02301, 02302, 02324, 02325, 02330,
-02332, 02333, 02338, 02339, 02341, 02346, 02347, 02350, 02351, 02359, 02360,
-02364, 02366, 02367, 02370, 02379, 02382, 02532, 02538, 02558, 02571, 02576,
-02738, 02739, 02770
 
-- 35 CSV files produced (02325 had no registered operators)
-- A combined county-wide file `Plymouth/ham_operators_plymouth_co.csv` was created by concatenating all zip-level files
-- The combined file was de-duplicated and sorted by Profile Views, descending
-- Final combined file: **1,484 unique operator records**
-- All CSV files were archived into `Plymouth/ham_data_plymouth.zip` (26 KB)
+
