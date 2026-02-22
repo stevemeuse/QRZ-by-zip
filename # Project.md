@@ -42,4 +42,12 @@ python3 qrz_lookup.py <zipcode>
 The script was run for all 36 zip codes in Plymouth County, Massachusetts. Output files were stored in the `Plymouth/` subdirectory.
 
 
+## 6. Cretae a cli script called qrz.py
+
+Create a CLI utility called qrz.py that uses the QRZ.com API to query for a single callsign. The input will be a text string that will passed to QRZ as a callsign. 
+
+The output should be a table with the information returned by QRZ.
+
+
+
 
